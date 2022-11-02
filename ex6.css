@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    margin: 5px auto;
+    width: 450px;
+    height: 100%;
+    background-color: #ADD8E6;
+    padding: 10px;
+}
+#info{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 3px solid white;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    margin-top:10px;
+}
+.form input{
+    border: none;
+}
+.course{
+    margin-top: 15px;
+}
+.gender{
+    margin-top: 15px;
+}
+.phone{
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    margin-top:10px;
+}
+.phone input{
+    margin-top: 10px;
+    border: none;
+}
+#textarea{
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    margin-top:10px;
+    color: black;
+    resize: none;
+    border: none;
+}
+#textarea::placeholder{
+color: black;
+}
+#btn{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    margin-top:10px;
+    padding: 10px;
+    border: transparent;
+    color: white;
+    background-color: #56B35F;
+
+}

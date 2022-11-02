@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} 
+
+.container{
+    width: 95%;
+    height: 100vh;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    
+}
+.container .title{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+    margin-top: 20px;
+}
+video{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: -50px;
+}
+
+.product-info{
+    display: flex;
+    align-items: center;
+    gap: 70px;
+    justify-content: center;
+}
+label{
+    display: flex;
+    flex-direction: column;
+}
+.container .table table{
+    border: 1px solid rgb(206, 206, 206);
+    width: 50%;
+  }
+ .table table .blue{
+    background-color: #141B69;
+    color: aliceblue;
+    border-radius: 3rem;
+    width: 100px;
+    height: 50px;
+
+ }
+  td,th,tr{
+    text-align: center;
+    padding: 28px;
+  }
+  .table{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+    justify-content: center;
+    padding: 28px;
+  } 
+
+.container .video video {
+    margin-top: 0px;
+    margin-right: auto;
+    margin-bottom: 0px;
+    margin-left: auto;
+    border: 1px solid #009;
+}
+.video{
+    padding-top: 25px;
+    padding-bottom: 40px;
+    margin-bottom: 20px;
+  }
+
+  .select{
+        background-color: #2F83C3;
+        color: white;
+  }
+  .product-info label{
+    font-size: 30px;
+    gap: 10px;
+    
+  }
+  .product-info option{
+    color: white;
+    width: 75px;
+  }
+  .product-info select{
+    width: 228px;
+height: 50px;
+text-align: left;
+font-size: 24px;
+
+  }
